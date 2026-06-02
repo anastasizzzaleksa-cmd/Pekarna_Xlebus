@@ -65,12 +65,6 @@ API-запросы: HttpClient
 - Microsoft Word (для записи ТестКейс.docx)
 - TransferSimulator.exe (в комплекте)
 
----
 
-## Установка и запуск
 
-### 1. Клонирование репозитория
 
-```bash
-git clone https://github.com/your-repo/milk-combine-is.git
-cd milk-combine-is
