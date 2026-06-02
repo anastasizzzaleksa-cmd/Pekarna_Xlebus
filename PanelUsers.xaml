@@ -1,0 +1,35 @@
+﻿<Window x:Class="Pekarna_Xlebus.PanelUsers"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pekarna_Xlebus"
+        mc:Ignorable="d"
+        Title="Панель пользователя" Height="500" Width="600" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!-- Заголовок -->
+        <Border Grid.Row="0" Height="80" Background="#3498DB">
+            <StackPanel VerticalAlignment="Center" Margin="15">
+                <TextBlock Text="Панель пользователя" FontSize="24" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </Border>
+        <!-- Основное содержимое -->
+        <Border Grid.Row="1" Margin="20">
+            <StackPanel>
+                <!-- Приветствие -->
+                <TextBlock x:Name="lblWelcome" FontSize="18" FontWeight="Bold"  HorizontalAlignment="Center" Margin="0,20,0,20"/>
+                
+                <!-- Кнопки действий -->
+                <Button x:Name="btnViewProducts" Content="Просмотр товаров" Width="250" Height="50" Margin="0,10" Click="BtnViewProducts_Click"/>
+                <Button x:Name="btnViewOrders" Content="Мои заказы" Width="250" Height="50" Margin="0,10" Click="BtnViewOrders_Click"/>
+                <Button x:Name="btnProfile" Content="Мой профиль" Width="250" Height="50" Margin="0,10" Click="BtnProfile_Click"/>
+                <Button x:Name="btnExit" Content="Выход" Width="250" Height="50" Margin="0,20" Background="#E74C3C" Foreground="White" Click="BtnExit_Click"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
+
