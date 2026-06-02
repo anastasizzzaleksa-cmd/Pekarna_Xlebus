@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Pekarna_Xlebus.Properties
+namespace API_5.Properties
 {
 
 

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Pekarna_Xlebus
+namespace API_5
 {
     /// <summary>
     /// Логика взаимодействия для App.xaml
